@@ -252,25 +252,6 @@ Output:
 
 This confirmed that the important negation word `not` was preserved.
 
-## Project Structure
-
-A recommended repository structure is:
-
-```text
-imdb-nlp-text-preprocessing/
-│
-├── README.md
-├── notebook/
-│   └── imdb_nlp_text_preprocessing.ipynb
-│
-├── data/
-│   └── README.md
-│
-└── requirements.txt
-```
-
-The original IMDb dataset does not need to be uploaded to the repository if its size or licensing/distribution terms make that inappropriate. The notebook can document where the dataset is obtained.
-
 ## Key Findings
 
 * Sentence tokenization separates reviews into individual sentences.
